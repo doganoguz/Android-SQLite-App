@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/ekle" android:title="Ekle"
+        android:orderInCategory="100" app:showAsAction="always"
+        android:icon="@drawable/ic_add_white_48dp" />
+
+    <item android:id="@+id/liste" android:title="Listele"
+        android:orderInCategory="100" app:showAsAction="always"
+        android:icon="@drawable/ico5" />
+    <item android:id="@+id/hakkinda" android:title="Hakkında"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/cikis" android:title="Çıkış"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+</menu>
